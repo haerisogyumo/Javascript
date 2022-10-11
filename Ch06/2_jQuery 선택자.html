@@ -40,10 +40,10 @@
             $('input'['name=pw']).css('border','1px solid red');
 
             //셀프 선택자
-            let tags = $('ol > li');
-
-
-        });
+            $('ol > li').each(function(){
+                $(this).css('color','olive');
+                });
+             });
     </script>
 </head>
 
